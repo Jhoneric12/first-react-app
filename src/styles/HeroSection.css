@@ -20,7 +20,7 @@
 .first-column h4 {
     color: var(--font-color);
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 .first-column h1 {
     color: var(--font-color);
@@ -29,7 +29,7 @@
 }
 .btnProjects {
     color: var(--font-color);
-    font-size: 1.25rem;
+    font-size: 1rem;
     background-color: #827397;
     font-weight: 600;
     padding: 1rem 3rem;
@@ -38,7 +38,7 @@
 }
 .btnAbout {
     color: var(--font-color);
-    font-size: 1.25rem;
+    font-size: 1rem;
     background-color: #4D4C7D;
     font-weight: 600;
     padding: 1rem 3rem;
