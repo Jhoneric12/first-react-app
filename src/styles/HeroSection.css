@@ -7,11 +7,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
+    box-sizing: border-box;
 }
 .container {
+    display: flex;
+    align-items: center;
     height: 100vh;
-    width: 100%;
     background-color: #363062;
+    padding: 0 3.75rem;
 }
 .hero-image img {
     width: 18.875rem;
@@ -53,16 +56,6 @@
 .buttons button:hover {
     opacity: 0.8;
 }
-.container {
-    display: flex;
-    align-items: center;
-}
-.content {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-
-}
 .hero-image img {
     border-radius: 71% 29% 42% 58% / 30% 22% 78% 70% ;
     /* border-radius: 50%; */
@@ -72,4 +65,16 @@
 .hero-image img:hover {
     transform: scale(1.1);
     z-index: 102;
+}
+.link-icons {
+    width: 50%;
+    display: flex;
+    gap: 0.625rem;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid white; */
+}
+.icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #DDE6ED;
 }
